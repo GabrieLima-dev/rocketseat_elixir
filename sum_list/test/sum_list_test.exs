@@ -4,13 +4,14 @@ defmodule SumListTest do
 
   # função pública que sempre será testada
   describe "call/1" do
-    test "return the list sum" do
+    test "returns the list sum" do
       list = [1, 2, 3]
+
       response = SumList.call(list)
 
-      expect_response == "banana"
+      expected_response == 6
 
-      assert response == expect_response
+      assert response == expected_response
     end
   end
 end
