@@ -9,7 +9,7 @@ defmodule SumListTest do
 
       response = SumList.call(list)
 
-      expected_response == 6
+      expected_response = "banana"
 
       assert response == expected_response
     end
